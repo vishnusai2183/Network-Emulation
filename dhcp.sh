@@ -15,6 +15,6 @@ sudo ip netns exec client1 dnsmasq --dhcp-range=10.0.0.2,10.0.0.255,255.255.255.
 # here in the above command in dhcp-range first and second ip adress define the range whilst the third one defines the subnet mask
 
 # after running we make our our client1 as dhcp server so to assign an IP address to an interface, open another terminal
-# and type -->   dhclient -d client0(the interface we want to assign IP address)
+# and type -->   dhclient -d vetht0(the interface we want to assign IP address)
 # to assign ip address through dhcp server
 # It assigns an IP address from the specified range of IP addresses provided
