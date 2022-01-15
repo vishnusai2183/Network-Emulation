@@ -104,7 +104,7 @@ sudo ip netns exec router ip addr add 10.0.1.1/24 dev veth3
 
 ```
 - Setting up the interfaces
-Now everything is set but our interfave is ```DOWN```.  So in this step we bring it ```UP``` 
+Now everything is set but our interface is ```DOWN```.  So in this step we bring it ```UP``` 
 ```bash
 sudo ip netns exec client1 ip link set dev veth0 up
 sudo ip netns exec router ip link set dev veth1 up
